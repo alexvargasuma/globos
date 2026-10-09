@@ -19,6 +19,8 @@ class Globo
   {
       strokeWeight(3);
       ellipse(x,y,70,100);
+      strokeWeight(1);
+      line(x,y+50,x,y+120);
   }
   
 }
