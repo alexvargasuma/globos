@@ -1,3 +1,4 @@
+PImage cara;
 class Globo
 {
   color c;
@@ -25,6 +26,9 @@ class Globo
       triangle(x,y+50,x-8,y+60,x+8,y+60);
       strokeWeight(3);
       line(x,y+50,x,y+120);
+      imageMode(CENTER);
+      image(cara,x,y,50,80);
+
       
   }
   
@@ -37,6 +41,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  cara = loadImage("Pedrito.jpg");
 }
 
 void draw()
