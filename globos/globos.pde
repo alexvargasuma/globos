@@ -22,7 +22,7 @@ class Globo
       fill(c);
       strokeWeight(3);
       ellipse(x,y,70,100);
-      strokeWeight(1);
+      strokeWeight(3);
       line(x,y+50,x,y+120);
   }
   
