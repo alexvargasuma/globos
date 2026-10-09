@@ -1,3 +1,4 @@
+PImage cara;
 class Globo
 {
   color c;
@@ -24,6 +25,7 @@ class Globo
       ellipse(x,y,70,100);
       strokeWeight(1);
       line(x,y+50,x,y+120);
+      image(cara,x,y);
   }
   
 }
@@ -35,6 +37,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  cara = loadImage("Pedrito.jpg");
 }
 
 void draw()
