@@ -25,7 +25,9 @@ class Globo
       ellipse(x,y,70,100);
       strokeWeight(1);
       line(x,y+50,x,y+120);
-      image(cara,x,y);
+      imageMode(CENTER);
+      image(cara,x,y,80,120);
+      
   }
   
 }
