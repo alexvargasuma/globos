@@ -22,8 +22,10 @@ class Globo
       fill(c);
       strokeWeight(3);
       ellipse(x,y,70,100);
+      triangle(x,y+50,x-8,y+60,x+8,y+60);
       strokeWeight(3);
       line(x,y+50,x,y+120);
+      
   }
   
 }
